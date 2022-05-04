@@ -10,3 +10,8 @@ app.listen(port, () => {
   console.log(`Server listening on port ${port}`)
 })
 
+app.get('/launchx', (req,res) => {
+  res.send('Welcome to launchx!')
+})
+
+
